@@ -1,0 +1,99 @@
+body{
+    background-color: #023535;
+}
+
+.barra {
+    background-color: #015958;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 120;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    cursor: pointer;
+    
+}
+
+.busqueda{
+    border: solid 1px #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.title{
+   font-size: 30px;
+}
+
+span{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 11ch;
+
+    animation: typing 2s steps(11),
+blink .5s infinite step-end alternate;
+    overflow: hidden;
+    animation-delay: 0.5s;
+}
+
+@keyframes typing{
+    from { width: 0 }
+}
+
+@keyframes blink{
+    50% { border-color: transparent }
+}
+
+.lupa{
+    height: 30%;
+    width: 30%;
+}
+
+.search-bar {
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 12px 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    width: 350px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.search-icon {
+    color: #999;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.search{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.pelis {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
