@@ -2,7 +2,7 @@
 const peliculas = [
     {
         titulo: "La Guerra de las Galaxias",
-        imagen: "/assets/img/anillos.jpeg",
+        imagen: "/assets/img/wars.jpeg",
         descripcion: "La película que revolucionó el cine de ciencia ficción",
         puntuacion: "7/10"
     },
@@ -14,7 +14,7 @@ const peliculas = [
     },
     {
         titulo: "El Señor de los Anillos",
-        imagen: "/assets/img/wars.jpeg",
+        imagen: "/assets/img/anillos.jpeg",
         descripcion: "La película que llevó el cine de fantasía a un nuevo nivel",
         puntuacion: "7/10"       
     },
